@@ -12,7 +12,7 @@ Early and accurate diagnosis of lung diseases is critical for effective treatmen
 
 ## Techniques Used  
 
-- **Convolutional Neural Network (CNN):** Applied to extract spatial features from X-ray images, allowing for precise classification.  
+- **Convolutional Neural Network (CNN):**
 - **Normalization and Regularization:** Images were normalized to pixel values between 0 and 1. Techniques like L2 regularization and dropout were applied to minimize overfitting.  
 - **Performance Metrics:** Evaluated using accuracy, confusion matrix, and visualizations of training/validation loss and accuracy.
 
