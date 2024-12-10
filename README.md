@@ -54,11 +54,14 @@ The model I ended up desigining consisted of the following:
 
 ### Model Performance  
 - **Training Accuracy:** 97.64%  
-- **Testing Accuracy:** 88.50% (could've been higher, but was satisfied with this number my first iteration was ~60% as my model was rather bare) 
+- **Testing Accuracy:** 88.50% (could've been higher, but was satisfied with this number my first iteration was ~60% as my model was rather bare)
+![Accuracy](plot.png) 
  
 
 #### Confusion Matrix  
-The confusion matrix highlights the model's performance across the four classes(see model.ipynb)
+The confusion matrix highlights the model's performance across the four classes
+![Confusion Matrix](conf.png)
+
 
 ### Observations  
 - High training accuracy indicates the model was able to learn well during training.  
