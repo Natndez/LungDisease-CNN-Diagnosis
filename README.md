@@ -66,7 +66,7 @@ The confusion matrix highlights the model's performance across the four classes
 ### Observations  
 - High training accuracy indicates the model was able to learn well during training.  
 - Testing accuracy demonstrates that the model was capable with new images.  
-- Misclassifications observed in the confusion matrix indicate some potential for improvement. Particularly in differentiating between similar conditions like pneumonia and tuberculosis.
+- Misclassifications observed in the confusion matrix indicate some potential for improvement. Particularly in differentiating between conditions with similar features like covid and tuberculosis.
 
 ---
 
@@ -75,7 +75,7 @@ The confusion matrix highlights the model's performance across the four classes
 ### Challenges Faced  
 - **Data Imbalance:** Equalizing the dataset across classes required slicing of images (500 was the best value I found).  
 - **Limited Data:** The relatively small dataset size limited the model's ability to generalize. Especially because the dataset I used only contained 576 images for covid, but over 4000 for pneumonia 
-- **Class Overlap:** Pneumonia and tuberculosis have similar features, making them harder for the model to distinguish them.
+- **Class Overlap:** Covid and tuberculosis seemingly have similar features, making them harder for the model to distinguish them.
 - **Improve `diagnose()` function:** While passing in specific image paths works, I'm sure there are much more robust ways to handle this.
 
 ### Future Improvements  
